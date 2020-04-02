@@ -1,0 +1,249 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+header nav {
+    background: transparent!important;
+}
+
+header nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.kpi-image {
+    animation-duration: 10s;
+    animation-delay: 1s;
+}
+
+.hr-main-title {
+    font-size: 55px;
+    font-weight: bold;
+    color: #435E6C;
+    margin-top: 100px;
+}
+
+
+.hr-tagline {
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.hr .get-started {
+    color: #fff;
+    background: rgb(117, 107, 207);
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.landing .get-started:hover {
+    color:  rgb(117, 107, 207);
+    background:#fff;
+    font-size: 17px;
+    width: 50%;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid  rgb(117, 107, 207);
+}
+
+.main-features {
+    margin: 100px 0 50px 0;
+}
+
+.main-feature-box {
+    width: 100%;
+    box-shadow: 0px 0px 10px #c3c3c3;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px 10px;
+    
+}
+
+.main-feature-box .box-header {
+    height: 150px;
+    overflow: hidden;
+}
+
+.main-feature-box img {
+    width: 150px;
+}
+
+.main-feature-box .box-body .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+
+.main-feature-box .box-body .description {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #001221;
+}
+
+
+
+.started-title {
+    font-size: 45px;
+    margin:40px 0 30px 0;
+    color: #fff
+}
+
+.started-description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff
+}
+
+.getting-started {
+    background: #003777;
+    height: 400px;
+    padding: 50px 0;
+}
+
+.getting-started ol {
+    counter-reset: li;
+    margin-top: 40px;
+}
+
+.getting-started .start-keys {
+    margin-top: 80px;
+}
+.getting-started ol li{
+    position: relative;
+    padding-left: 50px;
+    color: #fff;
+    font-size: 110%;
+    line-height: 2;
+    list-style: none;
+    text-decoration: none;
+}
+
+.getting-started ol {
+    counter-reset: li;
+    margin: 0;
+    padding: 0;
+}
+
+.getting-started ol li:before {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 50px;
+    color: #123466;
+    content: counter(li);
+    counter-increment: li;
+    font-weight: bold;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0em;
+    font-size: 14px;
+}
+
+.what-section {
+    background: #F5F7F9;
+    padding: 50px 0;
+}
+
+.what-section .heading {
+    color: #435E6C;
+}
+
+.what-section img  {
+    width: 150px;
+}
+
+.what-section .title {
+    color:  #003777;
+}
+
+.demo {
+    height: 400px;
+}
+
+.getting-started-1 {
+    background: #003777;
+    height: 540px;
+    padding: 50px 0;
+}
+
+.getting-started-1 ol li{
+    position: relative;
+    padding-left: 50px;
+    color: #fff;
+    font-size: 110%;
+    line-height: 2;
+    list-style: none;
+    text-decoration: none;
+}
+
+.getting-started-1 ol {
+    counter-reset: li;
+    margin: 0;
+    padding: 0;
+}
+
+.getting-started-1 ol li:before {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 50px;
+    color: #123466;
+    content: counter(li);
+    counter-increment: li;
+    font-weight: bold;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0em;
+    font-size: 14px;
+}
+
+.getting-started-1 .form-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top:50px;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 25px 0;
+    color: #000;
+
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 15px 0;
+}
